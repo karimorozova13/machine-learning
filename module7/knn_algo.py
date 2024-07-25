@@ -16,7 +16,7 @@ file_path = './mod_03_topic_05_weather_data.csv.gz'
 # Ensure the file exists at the specified path
 if os.path.exists(file_path):
     # Read the CSV file
-    df = pd.read_csv(file_path)
+    data = pd.read_csv(file_path)
     print("File read successfully.")
     # Optionally, display the first few rows of the dataframe
     print(df.head())
